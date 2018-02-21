@@ -615,6 +615,7 @@ module Peek = struct
       | T_PLUS_ASSIGN
       | T_ASSIGN
       | T_PLING
+      | T_OPT_CHAIN
       | T_COLON
       | T_OR
       | T_AND

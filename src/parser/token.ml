@@ -95,6 +95,7 @@ type t =
   | T_PLUS_ASSIGN
   | T_ASSIGN
   | T_PLING
+  | T_OPT_CHAIN
   | T_COLON
   | T_OR
   | T_AND
@@ -248,6 +249,7 @@ let token_to_string = function
   | T_PLUS_ASSIGN -> "T_PLUS_ASSIGN"
   | T_ASSIGN -> "T_ASSIGN"
   | T_PLING -> "T_PLING"
+  | T_OPT_CHAIN -> "T_OPT_CHAIN"
   | T_COLON -> "T_COLON"
   | T_OR -> "T_OR"
   | T_AND -> "T_AND"
@@ -377,6 +379,7 @@ let value_of_token = function
   | T_PLUS_ASSIGN -> "+="
   | T_ASSIGN -> "="
   | T_PLING -> "?"
+  | T_OPT_CHAIN -> "?."
   | T_COLON -> ":"
   | T_OR -> "||"
   | T_AND -> "&&"
