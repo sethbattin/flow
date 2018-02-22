@@ -125,6 +125,7 @@ let main include_tokens pretty file_type_opt use_strict from filename () =
         esproposal_class_static_fields = true;
         esproposal_decorators = true;
         esproposal_export_star_as = true;
+        esproposal_optional_chain = true;
         types = true;
         use_strict;
       }) in

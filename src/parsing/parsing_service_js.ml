@@ -118,6 +118,7 @@ let parse_source_file ~fail ~types ~use_strict content file =
     esproposal_class_static_fields = true;
     esproposal_decorators = true;
     esproposal_export_star_as = true;
+    esproposal_optional_chain = true;
     types = types;
     use_strict;
   }) in
@@ -132,6 +133,7 @@ let parse_json_file ~fail content file =
     esproposal_class_static_fields = false;
     esproposal_decorators = false;
     esproposal_export_star_as = false;
+    esproposal_optional_chain = false;
     types = true;
     use_strict = false;
   }) in
