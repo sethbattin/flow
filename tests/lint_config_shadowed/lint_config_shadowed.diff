@@ -1,0 +1,5 @@
+--- lint_config_shadowed.exp	2018-02-21 02:58:37.327016000 +0000
++++ lint_config_shadowed.out	2018-02-21 02:58:37.455016000 +0000
+@@ -1 +1 @@
+-.flowconfig:11 Redundant argument. The values set by this argument are completely overwritten.
++./runtests.sh: line 363: /home/vagrant/flow/esproposal: No such file or directory

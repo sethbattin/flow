@@ -1,0 +1,5 @@
+--- suppress_bad.exp	2018-02-21 02:58:38.995016000 +0000
++++ suppress_bad.out	2018-02-21 02:58:39.083016000 +0000
+@@ -1 +1 @@
+-.flowconfig:8 Error setting value for "suppress_comment". Invalid regex "[" ([ class not closed by ])
++./runtests.sh: line 363: /home/vagrant/flow/esproposal: No such file or directory

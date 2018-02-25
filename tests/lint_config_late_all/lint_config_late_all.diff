@@ -1,0 +1,5 @@
+--- lint_config_late_all.exp	2018-02-21 02:58:37.331016000 +0000
++++ lint_config_late_all.out	2018-02-21 02:58:37.483016000 +0000
+@@ -1 +1 @@
+-.flowconfig:11 "all" is only allowed as the first setting. Settings are order-sensitive.
++./runtests.sh: line 363: /home/vagrant/flow/esproposal: No such file or directory

@@ -1,0 +1,5 @@
+--- version.exp	2018-02-21 02:58:39.607016000 +0000
++++ version.out	2018-02-21 02:58:39.735016000 +0000
+@@ -1 +1 @@
+-Wrong version of Flow. The config specifies version 0.1.0 but this is version 0.66.0
++./runtests.sh: line 363: /home/vagrant/flow/esproposal: No such file or directory
